@@ -7,7 +7,7 @@ import java.sql.*;
  */
 public class DaoCon {
 	public Connection GetConn() throws Exception{
-		//数据哭的驱动
+		//数据库的驱动
 		Class.forName("com.mysql.jdbc.Driver");
 		//设置编码和URL地址还有用户名和密码
 		String url = "jdbc:mysql://localhost:3306/bookdb?characterEncodeing="+"utf-8";

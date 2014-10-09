@@ -5,7 +5,7 @@ import java.sql.Statement;
 
 import com.opensymphony.xwork2.ActionSupport;
 
-@SuppressWarnings("serial")
+
 public class DetelBook extends ActionSupport{
 	private String title;
 	private int i =0;

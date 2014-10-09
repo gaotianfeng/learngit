@@ -65,7 +65,7 @@ public class GetBook extends ActionSupport{
 		 String sql = "select * from book where authorid = "+authorid;
 		ResultSet rs = stmt.executeQuery(sql);
 		int totalRows = 0;
-		if (rs.last()){			//查询一共有多少个
+		if (rs.last()){			//查询一共有多少本书
             totalRows=rs.getRow();
         }
 		bookname = new String[totalRows];
